@@ -399,7 +399,8 @@ button{
     font-family:'Proxima Nova Regular';
     font-size:34px;
     letter-spacing:-0.72px;
-    line-height:41px; }
+    line-height:41px;
+    max-width:1100px; }
 
 @media screen and (max-width: 768px){
       .work .section-description{
