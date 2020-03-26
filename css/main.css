@@ -310,7 +310,7 @@ button{
   max-width:1320px;
   width:100%;
   margin:0 auto;
-  padding:0 15px; }
+  padding:0 25px; }
 
 @media screen and (max-width: 480px){
     .container{
@@ -318,8 +318,7 @@ button{
 
 .section-title{
   font-size:42px;
-  letter-spacing:-0.98px;
-  font-family:'Proxima Nova Regular'; }
+  letter-spacing:-0.98px; }
 
 @media screen and (max-width: 768px){
     .section-title{
