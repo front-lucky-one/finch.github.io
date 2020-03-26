@@ -318,7 +318,8 @@ button{
 
 .section-title{
   font-size:42px;
-  letter-spacing:-0.98px; }
+  letter-spacing:-0.98px;
+  font-family:'Proxima Nova Regular'; }
 
 @media screen and (max-width: 768px){
     .section-title{
@@ -337,10 +338,8 @@ button{
       padding:100px 0; } }
 
 .header .title{
-  max-width:1096px;
-  margin-bottom:200px;
-  font-size:76px;
-  letter-spacing:-1.62px; }
+  max-width:640px;
+  margin-bottom:200px; }
 
 @media screen and (max-width: 768px){
     .header .title{
@@ -389,6 +388,16 @@ button{
     letter-spacing:-0.72px;
     margin-bottom:7px; }
 
+@media screen and (max-width: 768px){
+      .argument .argument-items{
+        font-size:30px; } }
+
+@media screen and (max-width: 480px){
+      .argument .argument-items{
+        font-size:26px;
+        letter-spacing:-0.55px;
+        line-height:41px; } }
+
 .work{
   margin-bottom:150px; }
 
@@ -397,7 +406,7 @@ button{
       margin-bottom:100px; } }
 
 .work .section-title{
-    margin-bottom:56px; }
+    margin-bottom:55px; }
 
 .work .section-description{
     font-family:'Proxima Nova Regular';
@@ -424,7 +433,7 @@ button{
       margin-bottom:100px; } }
 
 .finch .section-title{
-    margin-bottom:56px; }
+    margin-bottom:55px; }
 
 .finch .finch-items{
     font-family:'Proxima Nova Regular';
@@ -450,7 +459,7 @@ button{
       margin-bottom:100px; } }
 
 .arguments .section-title{
-    margin-bottom:60px;
+    margin-bottom:55px;
     letter-spacing:-1.5px; }
 
 .arguments .arguments-items{
@@ -480,7 +489,7 @@ button{
       margin-bottom:100px; } }
 
 .about-us .section-title{
-    margin-bottom:105px; }
+    margin-bottom:55px; }
 
 .about-us .about-us-items{
     position:relative;
@@ -495,6 +504,7 @@ button{
         flex-direction:column; } }
 
 .about-us .about-us-decorstion{
+    font-family:'Proxima Nova Regular';
     position:absolute;
     font-size:34px;
     font-weight:700; }
