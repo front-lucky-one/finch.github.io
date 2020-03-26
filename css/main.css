@@ -569,7 +569,8 @@ button{
 
 @media screen and (max-width: 619px){
     .person-section .person-link{
-      max-width:none; } }
+      max-width:none;
+      margin:10px 0; } }
 
 .person-section .wrapp-btn{
   display:-webkit-box;
