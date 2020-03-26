@@ -342,12 +342,10 @@ button{
 
 @media screen and (max-width: 768px){
     .header .title{
-      font-size:60px;
       margin-bottom:150px !important; } }
 
 @media screen and (max-width: 480px){
     .header .title{
-      font-size:32px;
       margin-bottom:100px !important; } }
 
 .header .section-description{
